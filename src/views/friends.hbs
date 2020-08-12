@@ -1,0 +1,22 @@
+<div class="container">
+  <h1>Friends</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Here's a list of your Friends</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each data}}
+      <tr>
+        <th scope="row">{{this.id}}</th>
+        <td>{{this.friend1}}</td>
+        <td>{{this.friend2}}</td>
+        <td>{{this.friend3}}</td>
+        <td>{{this.friend4}}</td>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</div>
